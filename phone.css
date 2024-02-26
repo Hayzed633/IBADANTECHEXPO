@@ -1,0 +1,459 @@
+@media(max-width:430px) {
+    .container{
+        overflow-x: hidden;
+    }
+    .ibdexpo {
+        margin-left: 5px;
+        margin-top: 30px;
+        border: none;
+    }
+
+    .imageibdexpo img{
+        width:100%;
+        margin-left: 1px;
+    }
+    .imageibdexpo {
+        margin-top: 100px;
+        margin-left: 5px;
+        height: 50px;
+    }
+    .lineedition img {
+        margin-right: 30px; 
+        width: 200px;
+    }
+    .middlestar img {
+        margin-right: 80px;
+        border-radius: 50%;
+        border: 1px solid green;
+        padding: 10px;
+        width: 70px;
+        animation: middlestar 2s linear infinite;
+        width: 50px;
+    }
+    .link {
+        position: relative;
+        top: 30px;
+        left: 500px;
+        display: none;
+    }
+    .lineedition {
+        display: flex;
+        margin-top: 50px;
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+    }
+    .lineedition h1 {
+        font-size: 16px;
+    }
+    .ticket1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .gradient {
+        width: 95%;
+        height: 250px;
+        margin-top: 100px;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        background-image: linear-gradient(to right, #b58b26, blue, blue, blue, blue);
+        border-radius: 5px 5px 5px 5px;
+        opacity: 0.6;
+    }
+    .gradient h1 {
+        font-size: 30px;
+        font-weight: 700;
+        font-family: 'Jost', sans-serif;
+        color: white;
+        padding-top: 30px;
+    }
+    .gradient p {
+        font-size: 16px;
+        font-family: 'Jost', sans-serif;
+        color: white;
+        font-weight: 700;
+        padding-right: 30px;
+        padding-left: 20px;
+    }
+    .flexitem1 img {
+        width: 300px;
+    }
+    .flexitem2 img {
+        width: 300px;
+    }
+    .ICC {
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 95%;
+        background-image: url(img/HAYZED07.png);
+        background-size: cover;
+        background-position: 0;
+        background-repeat: no-repeat;
+        height: 260px;
+        border-radius: 20px;
+        position: relative;
+    }
+    .venuerotate1{
+        display: none;
+    }
+    .venuerotate2 {
+        display: none;
+    }
+    .ICC h2 {
+        font-family: 'Jost', sans-serif;
+        font-size: 20px;
+        font-weight: 900px;
+        color: white;
+        width: 300px;
+        margin-left: 20px;
+        /* margin-top: 50px; */
+        padding-top: 40px;
+    }
+    .imageline1 {
+        position: absolute;
+        left: 50px;
+        top: 10px;
+        display: none;
+    }
+
+    .ticketpriceitem {
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        margin-left: 80px;
+    }
+    
+    .goldimage img {
+        width: 50px;
+    }
+    .flex-item {
+        display: flex;
+        margin-top: 50px;
+        margin-left: 10px;
+        flex-direction: column;
+    }
+    
+   
+    
+    .aboutcon{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .flexitem1 {
+        margin-top: 80px;
+        margin-left: 10px;
+        width: 100%;
+    }
+    .flexitem1 img {
+        width: 350px;
+        /* width: 100%; */
+    }
+    .flexitem1 p {
+        margin-right: 10px;
+    }
+    .flexitem2 {
+        margin-top: 30px;
+        width: 95%;
+    }
+    .flexitem2 img {
+        width: 100%;
+        margin-left: 10px;
+    }
+    
+    .flexitem1 p {
+        font-size: 15px;
+        font-family: 'Jost', sans-serif;
+        color: #224093;
+        font-weight: 600;
+        line-height: 20px;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+    .ticket {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 10px;
+    }
+    .btn1 {
+        padding: 15px;
+        /* border-radius: 10px; */
+        height: 50px;
+        border: none;
+        background-color: #fdb915;
+        width: 95%;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 30px;
+    }
+    .btn1 a {
+        text-decoration: none;
+        font-size: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 550;
+        color: #224093;
+        padding-bottom: 20px;
+    }
+    .btn2 {
+        padding: 15px;
+        /* border-radius: 10px; */
+        border: 1px solid #798bbc;
+        height: 50px;
+        background-color: white;
+        width: 95%;
+        margin-left: 10px;
+        margin-top: 30px;
+        margin-right: 10px;
+    }
+    .section {
+        border-bottom: 3px solid #fdb915;
+        margin-top: 20px;
+    }
+    .section h1 {
+        font-size: 16px;
+        font-family: 'Jost', sans-serif;
+        color: #224093;
+        font-weight: bold;
+        margin-left: 10px;
+    }
+    .ICC img {
+        width: 93%;
+        margin-top: 10px;
+        margin-left: 10px;
+        height: 250px;
+    }
+    .section2 {
+        display: flex;
+        border-bottom: 3px solid #fdb915;
+        height: 55px;
+        /* justify-content: ; */
+    }
+    .section2 h1 {
+        font-size: 16px;
+        font-family: 'Jost', sans-serif;
+        color: #224093;
+        font-weight: 800;
+        margin-left: 10px;
+        margin-right: 150px;
+        margin-top: 30px;
+    }
+    .section2 p {
+        font-size: 12px;
+        font-family: 'Jost', sans-serif;
+        color: #224093;
+        font-weight: 500;
+        margin-top: 35px;
+    }
+    .picturecontainer {
+        display: flex;
+        /* justify-content: space-between; */
+        gap: 60px;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .pictureitem {
+        width: 100px;
+        height: 290px;
+        /* padding-right: ; */
+        margin-top: 20px;
+    }
+    .pictureitem img {
+        width: 160px;
+        height: 180px;
+    }
+    .pictureitem h1 {
+        font-size: 16px;
+        font-family: 'Jost', sans-serif;
+        font-weight: 500;
+        color: #224093;
+        margin-left: 20px;
+    }
+    .pictureitem p {
+        font-family: 'Jost', sans-serif;
+        color: #224093;
+        font-size: 12px;
+        font-weight: 400;
+        margin-left: 20px;
+    }
+    .ticket h1 {
+        color: #224093;
+        font-size: 40px;
+        font-family: 'Jost', sans-serif;
+        font-weight: 900;
+        margin-top: 100px;
+        margin-left: 10px;
+    }
+    .flex-item {
+        display: flex;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .flex-item1 {
+        width: 100%;
+        padding-top: 70px;
+        font-size: 18px;
+        font-weight: 400;
+        font-family: 'Jost', sans-serif;
+        line-height: 40px;
+        margin-left: 10px;
+    }
+    .flex-item1 p{
+        width: 100%;
+    }
+    .flex-item2 {
+        width: 100%;
+    }
+    .flex-item2 img {
+        margin-top: 40px;
+        margin-left: 10px;
+        margin-bottom: 50px;
+    }
+    .tech {
+        width: 100%;
+        height: 30px;
+        /* margin-top: 100px; */
+        text-align: center;
+    }
+    .tech p {
+        font-size: 18px;
+        font-family: 'Jost', sans-serif;
+        color: #224093;
+        font-weight: 700;
+    }
+    .ticketpriceitem {
+        margin-top: 10px;
+        display: flex;
+        gap: 40px;
+        margin-left: 15px;
+
+    }
+    .ticketpriceitem1{
+        width: 96%;
+        background-color: green;
+        color: white;
+
+    }
+    .ticketpriceitem1 article span {
+        margin-right: 125px;
+        font-size: 24px;
+        font-weight: bold;
+        font-family: 'Jost', sans-serif;
+    }
+    .ticketpriceitem2 {
+        width: 96%;
+        height: 560px;
+    }
+    .ticketpriceitem2 article span {
+        margin-right: 98px;
+    }
+    .ticketpriceitem3 {
+        width: 96%;
+        background-color: #224093;
+        color: white;
+    }
+    .ticketpriceitem3 article span {
+        margin-right: 120px;
+    }
+
+    .grabyourticket {
+        width: 100%;
+        height: 550px;
+        /* border: 1px solid red; */
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        background-image: linear-gradient(to right, #132351, #132351, #132351, #132351, red);
+    }
+    .galore h1 {
+        padding-top: 70px;
+        padding-left: 20px;
+        font-size: 35px;
+        color: white;
+        font-family: 'Jost', sans-serif;
+        font-weight: 900;
+    }
+
+    .galore p {
+        /* padding-top: 30px; */
+        margin-top: 20px;
+        padding-left: 20px;
+        color: white;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 20px;
+        font-family: 'Jost', sans-serif;
+        padding-right: 10px;
+
+    }
+    .ticketimages {
+        display: flex;
+        /* margin-left: 200px; */
+        height: 380px;
+        margin-top: 50px;
+    }
+    .laptop {
+        transform: translate(-190px, 90px);
+    }
+    .lady {
+        transform: translate(-170px, -10px);
+    }
+    .wristwatch{
+        transform: translate(-170px,-50px);
+    }
+    .laptop img {
+        width: 70px;
+    }
+    .lady img {
+        width: 200px;
+    }
+    .wristwatch img {
+        width: 50px;
+    }
+    .middlestar{
+        position: relative;
+        top: 40%;
+        left: 20%;
+    }
+    #lineedi2 {
+        position: absolute;
+        top: 150px;
+    }
+    .footer {
+        margin-top: 50px;
+        width: 100%;
+        height: 150px;
+        background-color: #132351;
+        display: flex;
+        flex-direction: column;
+    }
+    .footeritems h1 {
+        display: block;
+        text-align: center;
+    }
+    .footerimages {
+        margin-left: 120px;
+    }
+.link2 {
+    position: relative;
+    left: 30px;
+    top: 5px;
+}
+.list2 {
+    margin-right: 10px;
+}
+.list2 a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Jost', sans-serif;
+}
+
+
+
+}
